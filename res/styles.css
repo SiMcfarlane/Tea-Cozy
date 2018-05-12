@@ -96,12 +96,54 @@ body, html {
     
 }
 .item {
-    margin:10px;
+    margin:10px 10px 0;
 }
-.grow{
-    flex-shrink: 2;
+.item h3 {
+    font-size:20px;
 }
 
 
 
 /* END OF SHOWCASE */
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+    background-image: url("imgs/background.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.location-wrap {
+    display: flex;
+}
+.location {
+    background: black;
+    margin: 0 20px 20px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.location h4 {
+    margin: 15px 0;
+}
+.locations h2 {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* END OF LOCATIONS */
