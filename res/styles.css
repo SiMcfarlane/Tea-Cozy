@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.6em;
 
 }
 body, html {
@@ -14,7 +15,7 @@ body, html {
 }
 .main-header {
     width: 100%;
-    height: 69px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +29,9 @@ body, html {
     height: 50px;
     margin-left: 10px;
 }
+.logo {
+    height: 50px;
+}
 .main-nav {
     list-style: none;
     display: flex;
@@ -39,13 +43,13 @@ body, html {
 .main-nav li a{
     color: white;
     font-family: Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 /* END OF HEADER STYLES */
 
 .mission {
     height: 700px;
-    margin: 69px 20px;
+    margin: 70px 20px 0;
     background-image: url("imgs/mission-background.jpg");
     background-position: center;
     background-size: cover;
@@ -58,8 +62,46 @@ body, html {
     padding: 15px;
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 
 /* END OF MAIN MISSION SECTION */
+
+.showcase {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase img {
+    width: 300px;
+    height: 200px;
+}
+.items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.item {
+    margin:10px;
+}
+.grow{
+    flex-shrink: 2;
+}
+
+
+
+/* END OF SHOWCASE */
