@@ -113,6 +113,8 @@ html {
 
 .location-wrap {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .location {
   background: black;
